@@ -69,12 +69,15 @@ POST /api/projects
 }
 
 📚 Documentation
+<div align="center">
 <ul> <li><a href="#routes">API Routes</a></li> <li><a href="#validation">Validation Rules</a></li> <li><a href="#error-handling">Error Handling</a></li> </ul>
-
+</div>
 
 
 📦 API Routes
+<div align="center">
 <table> <thead> <tr> <th>Method</th> <th>Endpoint</th> <th>Description</th> </tr> </thead> <tbody> <tr> <td>POST</td> <td>/api/tasks</td> <td>Create a new task</td> </tr> <tr> <td>GET</td> <td>/api/tasks</td> <td>Get all tasks</td> </tr> <tr> <td>POST</td> <td>/api/projects</td> <td>Create a new project</td> </tr> <tr> <td>GET</td> <td>/api/projects</td> <td>Get all projects</td> </tr> </tbody> </table>
+</div>
 
 🛡️ Validation Rules
 TaskStoreRequest
@@ -102,9 +105,4 @@ Copy code
 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Notes:
-- The use of `<div>`, `<ul>`, `<table>`, and other HTML elements is allowed and will be rendered correctly on GitHub.
-- You can replace the placeholder image URLs with actual images hosted on your repository or a cloud service.
-- Using `<h1>`, `<h2>`, and other semantic HTML tags ensures your markdown has structured headers.
-
-Once you're happy with the design, you can publish it on GitHub and it will render the HTML elements seamlessly.
+try with postman : https://documenter.getpostman.com/view/34383133/2sAXqqcNDJ
